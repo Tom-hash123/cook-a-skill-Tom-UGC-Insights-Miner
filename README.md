@@ -1,28 +1,32 @@
 # UGC Comment Insights Miner
-> **Cook A Skill Challenge** — Biến comment threads thành content sections sẵn sàng dùng cho blog.
+> **Cook A Skill Challenge** — Transform comment threads into ready-to-use content sections for your blog.
 
-## Skill làm gì?
-Nhận 1+ URL (Reddit, X/Twitter, YouTube, forum, blog) → tự động fetch comments → lọc noise → phân loại insights thành 3 nhóm → phân tích viral patterns → output markdown report sẵn sàng copy-paste vào blog.
+## What does this skill do?
+Takes 1+ URLs (Reddit, X/Twitter, YouTube, forum, blog) → auto-fetches comments → filters noise → classifies insights into 3 categories → analyzes viral patterns → outputs ready-to-paste markdown report for your blog.
 
 ## Problem
-Content Writer mất 1–2 giờ mỗi bài để tìm và tổng hợp community insights. Hầu hết bỏ qua bước này → bài viết ra generic, không có real human voice, không có E-E-A-T signals → ít được AI search engines (Google SGE, Perplexity) trích dẫn.
+Content writers spend 1–2 hours per article hunting for and synthesizing community insights. Most skip this step → articles end up generic, lack real human voice, no E-E-A-T signals → rarely cited by AI search engines (Google SGE, Perplexity).
 
 ## 3 Insight Categories
-| Category | Mô tả | SEO/GEO Value |
+| Category | Description | SEO/GEO Value |
 |---|---|---|
-| **Counter-Arguments** | Ý kiến phản biện, góc nhìn khác | Multi-perspective = comprehensive hub |
-| **Real-World FAQs** | Câu hỏi thật từ community | Match conversational search + PAA |
-| **Personal Experiences** | Case study từ người dùng thật | "Experience" trong E-E-A-T |
+| **Counter-Arguments** | Opposing viewpoints and alternative perspectives | Multi-perspective = comprehensive hub |
+| **Real-World FAQs** | Real questions from the community | Match conversational search + PAA |
+| **Personal Experiences** | Case studies from real users | "Experience" in E-E-A-T |
 
-## Trước vs. Sau
-| Metric | Trước (Manual) | Sau (Có Skill) |
+## Before vs. After
+| Metric | Before (Manual) | After (With Skill) |
 |---|---|---|
-| Thời gian | 1–2 giờ | 1–2 phút |
-| Comments reviewed | ~30 (lướt) | 100+ (systematic) |
-| Viral analysis | Không có | Tự động |
+| Time | 1–2 hours | 1–2 minutes |
+| Comments reviewed | ~30 (skimmed) | 100+ (systematic) |
+| Viral analysis | Manual | Automatic |
 
-## Cấu trúc Repo
-- `SKILL.md` — File instruction chính
-- `spec.md` — Spec đã duyệt
-- `skill-card.md` — Skill Card 1 trang
+## Repo Structure
+- `SKILL.md` — Main instruction file
+- `spec.md` — Approved specification
+- `skill-card.md` — One-page Skill Card
 - `ai-showcase/`
+
+---
+
+**Created by:** Tom — Content Writer

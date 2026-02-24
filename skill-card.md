@@ -1,11 +1,11 @@
 # Skill Card: UGC Comment Insights Miner
 
-| Mục | Nội dung |
+| Section | Content |
 |---|---|
-| **Tên Skill** | UGC Comment Insights Miner |
-| **Việc gì được automate** | Thu thập, lọc, và phân loại community insights từ comment threads (Reddit, X, YouTube, forums) thành các content sections sẵn sàng dùng cho blog — bao gồm counter-arguments, FAQ từ real users, personal experiences, và viral pattern analysis |
-| **TRƯỚC: làm tay** | Mỗi bài blog mất 1–2 giờ lướt Reddit/X/forum, đọc hàng trăm comments, cherry-pick thủ công, tự viết lại. Hầu hết writer bỏ qua bước này vì tốn thời gian → bài viết ra thiếu UGC depth |
-| **SAU: có skill** | Paste 1–3 URL → 1–2 phút → output markdown report hoàn chỉnh với 5 sections (Executive Summary, Counter-Arguments, FAQ, Experiences, Viral Analysis) + optional Blog Cross-Reference. Copy-paste thẳng vào blog, chỉnh sửa < 5 phút |
-| **Tool/AI đã dùng** | Claude (SKILL.md prompt engineering), web_fetch (URL fetching), Claude Projects |
-| **Limitation** | X/Twitter có thể block scraping (cần backup Reddit links); JS-rendered comments không fetch được; giới hạn top 100 comments/URL; chưa có scheduled monitoring |
-| **Roadmap mở rộng** | Phase 2: Multi-link batch (5–10 URLs), template variants theo blog type, brand voice calibration, DOCX output. Phase 3: Browser extension "X Learning Companion" — smart bookmarks, profile tracker, daily digest |
+| **Skill Name** | UGC Comment Insights Miner |
+| **What Gets Automated** | Collects, filters, and classifies community insights from comment threads (Reddit, X, YouTube, forums) into ready-to-use content sections for your blog — including counter-arguments, FAQs from real users, personal experiences, and viral pattern analysis |
+| **BEFORE: Manual Process** | Each blog post requires 1–2 hours scrolling Reddit/X/forums, reading hundreds of comments, manually cherry-picking, and rewriting. Most writers skip this step due to time constraints → articles lack UGC depth |
+| **AFTER: With Skill** | Paste 1–3 URLs → 1–2 minutes → complete markdown report with 5 sections (Executive Summary, Counter-Arguments, FAQ, Experiences, Viral Analysis) + optional Blog Cross-Reference. Copy-paste directly into blog, edit < 5 minutes |
+| **Tools/AI Used** | Claude (SKILL.md prompt engineering), web_fetch (URL fetching), Claude Projects |
+| **Limitations** | X/Twitter may block scraping (requires backup Reddit links); JS-rendered comments cannot be fetched; limited to top 100 comments/URL; no scheduled monitoring yet |
+| **Expansion Roadmap** | Phase 2: Multi-link batch (5–10 URLs), template variants by blog type, brand voice calibration, DOCX output. Phase 3: Browser extension "X Learning Companion" — smart bookmarks, profile tracker, daily digest |
