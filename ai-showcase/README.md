@@ -50,14 +50,13 @@ This folder documents how AI was used throughout the project — from ideation t
 - **Not just Q&A:** The skill IS the product — Claude executes a 6-step pipeline (fetch, score, classify, analyze, cross-reference, assemble)
 - **Quality scoring algorithm:** AI applies weighted scoring (engagement 30%, length 20%, data 15%, experience 15%, replies 10%, sentiment 10%) to filter noise
 - **Viral pattern detection:** AI identifies WHY top comments resonated using a 7-trigger taxonomy
-- **Anonymization compliance:** All outputs anonymize usernames per SKILL.md business rules
 - **Iterative improvement:** Each test round led to SKILL.md refinements
 
 ### 4. What We Learned from Testing
 1. **X thread workaround works well** — paste method produces same quality as URL fetch
 2. **67% high-value rate is consistent** — scoring algorithm reliably filters noise across different topics
 3. **Viral pattern analysis is the highest-value section** — actionable writing tips derived from real engagement data
-4. **Anonymization needs explicit prompting** — added to SKILL.md business rules after Test 1
+4. **Original attribution preserved** — keeping commenter names adds authenticity to insights
 
 ## Conversation Links
 

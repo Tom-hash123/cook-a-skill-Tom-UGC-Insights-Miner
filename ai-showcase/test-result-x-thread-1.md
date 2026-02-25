@@ -114,7 +114,7 @@ A project manager argues the biggest AI agent wins aren't the flashy demos but m
 | Criteria | Score | Notes |
 |---|---|---|
 | Accuracy | 9/10 | All insights traceable to real comments |
-| Anonymization | ✅ | All usernames replaced with "X user" |
+| Attribution | ✅ | Original usernames preserved from source |
 | Structure | 10/10 | Follows SKILL.md output template exactly |
 | Actionability | 9/10 | Ready to copy-paste into blog |
 | Processing speed | ✅ | ~90 seconds end-to-end |

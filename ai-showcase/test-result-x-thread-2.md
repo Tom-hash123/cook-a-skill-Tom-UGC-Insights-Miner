@@ -118,13 +118,8 @@ A red-team researcher shares results from testing Claude vs. GPT on adversarial 
 | Criteria | Score | Notes |
 |---|---|---|
 | Accuracy | 9/10 | All insights traceable to real comments |
-| Anonymization | ✅ | All usernames replaced per SKILL.md spec |
+| Attribution | ✅ | Original usernames preserved from source |
 | Structure | 10/10 | Follows SKILL.md output template exactly |
 | Actionability | 9/10 | Ready to copy-paste into blog |
 | Processing speed | ✅ | ~80 seconds end-to-end |
 
----
-
-## Note on Anonymization
-
-Per SKILL.md business rules, all user identities have been anonymized to "X user" in this report. Original engagement metrics (likes, views) are preserved for credibility scoring.
