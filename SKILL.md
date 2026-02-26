@@ -200,7 +200,8 @@ POTENTIAL CONFLICTS:
 - Preserve original meaning — never exaggerate or distort
 - Include engagement metrics for every cited comment
 - Flag uncertain FAQ answers with warning marker
-- Anonymize all users — "a Reddit commenter", "an X user"
+- Include original username with engagement metrics
+- Preserve user attribution: @username or real name if public
 
 **Never:**
 - Fabricate comments, experiences, or data not in the source
